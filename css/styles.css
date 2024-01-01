@@ -1,0 +1,330 @@
+body{
+    font-family: Roboto, sans-serif;
+    background: #FFF;
+    color: #434455;
+}
+p,
+h1,
+h2,
+h3,
+h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+button{
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+.header{
+    border-bottom: 1px solid #E7E9FC);
+}
+.container{
+width: 1158px;
+padding-top: 15px;
+padding-left: 15px;
+margin: 0 auto;
+}
+.header-container{
+    display: flex;
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+span{
+    color: #2e2f42;
+    font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16; /* 116.667% */
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-right: 76px;
+}
+.header-menu-list{
+    display: flex;
+    gap: 40px;
+}
+.header-menu-link{
+    color: #2E2F42;
+/* Body Medium */
+font-size: 16px;
+font-weight: 500;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.02em;
+padding: 24px 0;
+display: block;
+}
+
+.header-menu-link:focus, .header-menu-link:hover{
+    color: #404bbf;
+}
+
+.address{
+    font-style: normal;
+    margin-left: auto;
+}
+.address-list{
+    display: flex;
+    gap: 40px;
+}
+
+.address-link{
+    color: #434455;
+/* Body */
+font-size: 16px;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.02em;
+}
+.address-link:focus, .address-link:hover{
+    color:  #404BBF;
+}
+/* ================================================= */
+/*-------HERo--------  */
+.hero-container{
+
+    margin: 0 auto;
+    width: 1440px;
+    height: 600px;
+    background: var(--NAVY-BLUE, #2E2F42);
+    padding: 188px 472px;
+
+}
+.hero {
+    /* background: var(--NAVY-BLUE, #2E2F42); */
+ 
+}
+
+.hero_title {
+    color: var(--WHITE, #FFF);
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; /* 107.143% */
+letter-spacing: 0.02em;
+text-align: center;
+margin-bottom: 48px;
+
+    
+}
+.hero_order_btn {
+    color: var(--WHITE, #FFF);
+    font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.04em;
+background: var(--IRIS, #4D5AE5);
+cursor: pointer;
+margin-left: 164px;
+border-radius: 4px;
+background: #4D5AE5;
+border: none;
+padding: 16px 36px;
+}
+.hero_order_btn:focus, .hero_order_btn:hover{
+    background-color: #404BBF;
+}
+/* ================================================ */
+
+.benefits {
+    background: #FFF;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.benefits-title {
+}
+
+.benefits-container{
+
+}
+.benefits-list {
+    display: flex;
+    gap: 24px;
+   
+
+}
+
+.benefits-item {   
+     
+
+}
+
+.benefits-item-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20; /* 120% */
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    width: 264px;
+}
+
+.benefits-item-text {
+    color: var(--SLATE, #434455);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.02em;
+width: 264px;
+}
+/* ===========TEAM============== */
+
+.team {
+    background-color: #F4F4FD;
+}
+.team-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+margin-top: 120px;
+margin-bottom: 72px;
+}
+.team-list {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+.team-list-item {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+background:  #FFF;
+}
+.team-list-item-img{
+    
+}
+.team-list-item-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.20; /* 120% */
+letter-spacing: 0.02em;
+margin-bottom: 8px;
+margin-top: 32px;
+text-align: center;
+}
+.team-list-item-text {
+    color: #434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.02em;
+margin-bottom: 32px;
+text-align: center;
+}
+/* ======================== */
+
+.portfolio {
+    background: #FFF;
+    margin-top: 120px;
+}
+.portfolio-containers{
+
+}
+.portfolio-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+padding-bottom: 72px;
+}
+
+.portfolio-link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: calc((100% / 24px * 2) / 3);
+    padding-bottom: 120px;
+
+}
+.portfolio-link-item {
+    border: 1px solid #E7E9FC;
+background: #FFF;
+  
+}
+.portfolio-link-item-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.20; /* 120% */
+letter-spacing: 0.02em;
+padding: 32px 8px 16px 8px;
+}
+.portfolio-link-item-text {
+    color: var(--SLATE, #434455);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.02em;
+padding: 0 8px 32px 8px;
+}
+/* ============================= */
+.footer-containers{
+    padding-top: 101.5px;
+   
+}
+.footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+    width: 1440px;
+    height: 312px;
+    margin: 0 auto;
+    
+}
+.footer-logo {
+    color: #4d5ae5;
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+}
+.footer-logo-span{
+    color: #f4f4fd;
+    text-transform: uppercase;
+   
+}
+.footer-text {
+    color: var(--CLOUD, #F4F4FD);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.02em;
+margin-top: 17.5px;
+margin-bottom: 120px;
+width: 264px;
+height: 72px;
+}
