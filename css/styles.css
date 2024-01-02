@@ -27,6 +27,7 @@ padding-left: 0;
 }
 img{
     display: block;
+
 }
 .header{
     border-bottom: 1px solid #E7E9FC;
@@ -101,33 +102,33 @@ display: block;
 /* Body */
 font-size: 16px;
 font-weight: 400;
-line-height: 1.50; /* 150% */
+line-height: 1.50;
 letter-spacing: 0.02em;
 }
+
 .address-link:focus, .address-link:hover{
     color:  #404BBF;
 }
+
 /* ================================================= */
-/*-------HERo--------  */
+
 .hero-container{
 
-    margin: 0 auto;
-    width: 1440px;
-    height: 600px;
-    background: var(--NAVY-BLUE, #2E2F42);
-    padding: 188px 472px;
+margin: 0 auto;
+width: 1440px;
+height: 600px;
+background: #2E2F42;
+padding: 188px 472px;
 
 }
 .hero {
-    padding: 188px 0;
- 
 }
 
 .hero_title {
-    color: var(--WHITE, #FFF);
+color: #FFF;
 font-size: 56px;
 font-weight: 700;
-line-height: 1.07; /* 107.143% */
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 margin-bottom: 48px;
@@ -136,7 +137,7 @@ max-width: 496px;
     
 }
 .hero_order_btn {
-    color: var(--WHITE, #FFF);
+    color: var #FFF;
     font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 500;
@@ -162,7 +163,9 @@ min-width: 169px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
+.benefits-container{
+    padding: 0;
+}
 
 .visually-hidden {
     position: absolute;
@@ -179,14 +182,10 @@ min-width: 169px;
 .benefits-list {
     display: flex;
     gap: 24px;
-   
-
 }
 
 .benefits-item { 
     width: calc((100% - 72px) / 4);  
-     
-
 }
 
 .benefits-item-title {
@@ -200,47 +199,54 @@ min-width: 169px;
 }
 
 .benefits-item-text {
-    color: var(--SLATE, #434455);
+    color: #434455;
 font-size: 16px;
 font-weight: 400;
-line-height: 1.50; /* 150% */
+line-height: 1.50;
 letter-spacing: 0.02em;
 width: 264px;
 }
+
 /* ===========TEAM============== */
 
 .team {
     background-color: #F4F4FD;
     padding: 120px 0;
 }
+.team-container{
+    padding: 0;
+
+}
 .team-title {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
 font-size: 36px;
 font-weight: 700;
-line-height: 1.11; /* 111.111% */
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 margin-top: 120px;
 margin-bottom: 72px;
 }
-
 .team-list {
-    display: flex;
-    gap: 24px;
-    padding-bottom: 120px;
+display: flex;
+gap: 24px;
+justify-content: center;
+align-items: center;
 }
 .team-list-item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 background:  #FFF;
 width: calc((100% - 72px) / 4);
+width: 264px;
 }
-.team-list-item-img{
-    
+.team-list-item-img{ 
+  
 }
 .cont-team{
     padding: 32px 0;
+
 }
 .team-list-item-title {
 color: #2E2F42;
@@ -248,9 +254,8 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.20;
 letter-spacing: 0.02em;
-margin-bottom: 8px;
-margin-top: 32px;
 text-align: center;
+padding-bottom: 8px;
 }
 .team-list-item-text {
 color: #434455;
@@ -258,7 +263,6 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.50;
 letter-spacing: 0.02em;
-margin-bottom: 32px;
 text-align: center;
 }
 
@@ -267,9 +271,10 @@ text-align: center;
 .portfolio {
     background: #FFF;
     padding-top: 120px;
-    padding-bottom: 120px;
+
 }
 .portfolio-containers{
+    padding: 0;
 
 }
 .portfolio-title {
@@ -310,8 +315,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.20;
 letter-spacing: 0.02em;
-padding: 32px 8px 16px 8px;
-margin-bottom: 8px;
+padding-bottom: 8px;
 }
 .portfolio-link-item-text {
     color: #434455;
@@ -319,19 +323,18 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.50;
 letter-spacing: 0.02em;
-padding: 0 8px 32px 8px;
-margin-bottom: 8px;
 }
+
 /* ========================================== */
 
 .footer-containers{
+    padding: 0;
 }
 .footer {
     background: #2E2F42;
-    width: 1440px;
-    height: 312px;
     margin: 0 auto;
-    padding: 100px 0;
+padding: 101.5px 0 100px 0;
+    width: 1440px;
     
 }
 .footer-logo {
@@ -343,7 +346,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 display: inline-block;
-margin-bottom: 16px;
+margin-bottom: 17,5px;
 
 }
 .footer-logo-span{
@@ -357,8 +360,6 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.50;
 letter-spacing: 0.02em;
-margin-top: 17.5px;
-margin-bottom: 120px;
 width: 264px;
 height: 72px;
 }
