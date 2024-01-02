@@ -25,8 +25,11 @@ margin-top: 0;
 margin-bottom: 0;
 padding-left: 0;
 }
+img{
+    display: block;
+}
 .header{
-    border-bottom: 1px solid #E7E9FC);
+    border-bottom: 1px solid #E7E9FC;
 }
 .container{
 width: 1158px;
@@ -116,7 +119,7 @@ letter-spacing: 0.02em;
 
 }
 .hero {
-    /* background: var(--NAVY-BLUE, #2E2F42); */
+    padding: 188px 0;
  
 }
 
@@ -128,6 +131,7 @@ line-height: 1.07; /* 107.143% */
 letter-spacing: 0.02em;
 text-align: center;
 margin-bottom: 48px;
+max-width: 496px;
 
     
 }
@@ -145,6 +149,8 @@ border-radius: 4px;
 background: #4D5AE5;
 border: none;
 padding: 16px 36px;
+display: block;
+min-width: 169px;
 }
 .hero_order_btn:focus, .hero_order_btn:hover{
     background-color: #404BBF;
@@ -157,12 +163,19 @@ padding: 16px 36px;
     padding-bottom: 120px;
 }
 
-.benefits-title {
-}
 
-.benefits-container{
-
-}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .benefits-list {
     display: flex;
     gap: 24px;
@@ -170,7 +183,8 @@ padding: 16px 36px;
 
 }
 
-.benefits-item {   
+.benefits-item { 
+    width: calc((100% - 72px) / 4);  
      
 
 }
@@ -197,6 +211,7 @@ width: 264px;
 
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .team-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -218,88 +233,103 @@ margin-bottom: 72px;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 background:  #FFF;
+width: calc((100% - 72px) / 4);
 }
 .team-list-item-img{
     
 }
+.cont-team{
+    padding: 32px 0;
+}
 .team-list-item-title {
-    color: var(--NAVY-BLUE, #2E2F42);
+color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
-line-height: 1.20; /* 120% */
+line-height: 1.20;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
 margin-top: 32px;
 text-align: center;
 }
 .team-list-item-text {
-    color: #434455;
+color: #434455;
 font-size: 16px;
 font-weight: 400;
-line-height: 1.50; /* 150% */
+line-height: 1.50;
 letter-spacing: 0.02em;
 margin-bottom: 32px;
 text-align: center;
 }
-/* ======================== */
+
+/* ================================================== */
 
 .portfolio {
     background: #FFF;
-    margin-top: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .portfolio-containers{
 
 }
 .portfolio-title {
-    color: var(--NAVY-BLUE, #2E2F42);
+color: #2E2F42;
 font-size: 36px;
 font-weight: 700;
-line-height: 1.11; /* 111.111% */
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
-padding-bottom: 72px;
+margin-bottom: 72px;
 }
 
 .portfolio-link {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    width: calc((100% / 24px * 2) / 3);
-    padding-bottom: 120px;
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+width: calc((100% / 24px * 2) / 3);
+padding-bottom: 120px;
+row-gap: 48px;
 
 }
 .portfolio-link-item {
-    border: 1px solid #E7E9FC;
+border: 1px solid #E7E9FC;
 background: #FFF;
-  
+width: calc((100% - 48px) / 3);
 }
+
+.cont-portfolio{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
+
 .portfolio-link-item-title {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
-line-height: 1.20; /* 120% */
+line-height: 1.20;
 letter-spacing: 0.02em;
 padding: 32px 8px 16px 8px;
 }
 .portfolio-link-item-text {
-    color: var(--SLATE, #434455);
+    color: #434455;
 font-size: 16px;
 font-weight: 400;
-line-height: 1.50; /* 150% */
+line-height: 1.50;
 letter-spacing: 0.02em;
 padding: 0 8px 32px 8px;
+margin-bottom: 8px;
 }
-/* ============================= */
+/* ========================================== */
+
 .footer-containers{
-    padding-top: 101.5px;
-   
 }
 .footer {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: #2E2F42;
     width: 1440px;
     height: 312px;
     margin: 0 auto;
+    padding: 100px 0;
     
 }
 .footer-logo {
@@ -307,9 +337,11 @@ padding: 0 8px 32px 8px;
 font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.17; /* 116.667% */
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+display: inline-block;
+margin-bottom: 16px;
 
 }
 .footer-logo-span{
@@ -318,10 +350,10 @@ text-transform: uppercase;
    
 }
 .footer-text {
-    color: var(--CLOUD, #F4F4FD);
+    color: #F4F4FD;
 font-size: 16px;
 font-weight: 400;
-line-height: 1.50; /* 150% */
+line-height: 1.50;
 letter-spacing: 0.02em;
 margin-top: 17.5px;
 margin-bottom: 120px;
