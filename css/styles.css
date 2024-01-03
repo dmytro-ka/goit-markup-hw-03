@@ -122,6 +122,7 @@ padding: 188px 472px;
 
 }
 .hero {
+    padding: 188px 0;
 }
 
 .hero_title {
@@ -256,6 +257,8 @@ line-height: 1.20;
 letter-spacing: 0.02em;
 text-align: center;
 padding-bottom: 8px;
+
+
 }
 .team-list-item-text {
 color: #434455;
@@ -315,7 +318,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.20;
 letter-spacing: 0.02em;
-padding-bottom: 8px;
+margin-bottom: 8px; 
 }
 .portfolio-link-item-text {
     color: #434455;
