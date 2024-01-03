@@ -122,7 +122,7 @@ padding: 188px 472px;
 
 }
 .hero {
-
+    padding: 188px 0;
 }
 
 .hero_title {
@@ -212,7 +212,7 @@ width: 264px;
 
 .team {
     background-color: #F4F4FD;
-    /* padding: 120px 0; */
+    padding: 120px 0;
 }
 .team-container{
     padding: 0;
@@ -226,7 +226,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
-padding-top: 120px;
+
 margin-bottom: 72px;
 }
 .team-list {
@@ -239,7 +239,7 @@ align-items: center;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 background:  #FFF;
-width: calc((100% - 72px) / 4);
+width: calc((100% - 3 * 24px) / 4)
 width: 264px;
 }
 .team-list-item-img{ 
@@ -273,7 +273,8 @@ text-align: center;
 
 .portfolio {
     background: #FFF;
-    padding: 100px 0 100px;
+padding-top: 120px;
+padding-bottom: 120px;
 
 }
 .portfolio-containers{
