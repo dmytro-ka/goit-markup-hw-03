@@ -26,14 +26,16 @@ margin-bottom: 0;
 padding-left: 0;
 }
 img{
-    display: block;
+display: block;
+max-width: 100%;
+height: auto;
 
 }
 .header{
     border-bottom: 1px solid #E7E9FC;
 }
 .container{
-width: 1158px;
+max-width: 1158px;
 padding-top: 15px;
 padding-left: 15px;
 margin: 0 auto;
@@ -113,15 +115,17 @@ letter-spacing: 0.02em;
 /* ================================================= */
 
 .hero-container{
+padding: 0;
 
-margin: 0 auto;
-width: 1440px;
-height: 600px;
-background: #2E2F42;
-padding: 188px 472px;
 
 }
 .hero {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1440px;
+    height: 600px;
+    background: #2E2F42;
     padding: 188px 0;
 }
 
