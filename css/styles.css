@@ -122,7 +122,7 @@ padding: 188px 472px;
 
 }
 .hero {
-    padding: 188px 0;
+
 }
 
 .hero_title {
@@ -212,7 +212,7 @@ width: 264px;
 
 .team {
     background-color: #F4F4FD;
-    padding: 120px 0;
+    /* padding: 120px 0; */
 }
 .team-container{
     padding: 0;
@@ -226,7 +226,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
-margin-top: 120px;
+padding-top: 120px;
 margin-bottom: 72px;
 }
 .team-list {
@@ -256,7 +256,7 @@ font-weight: 500;
 line-height: 1.20;
 letter-spacing: 0.02em;
 text-align: center;
-padding-bottom: 8px;
+margin-bottom: 8px
 
 
 }
@@ -273,7 +273,7 @@ text-align: center;
 
 .portfolio {
     background: #FFF;
-    padding-top: 120px;
+    padding: 100px 0 100px;
 
 }
 .portfolio-containers{
@@ -296,7 +296,6 @@ display: flex;
 flex-wrap: wrap;
 gap: 24px;
 width: calc((100% / 24px * 2) / 3);
-padding-bottom: 120px;
 row-gap: 48px;
 
 }
@@ -336,7 +335,7 @@ letter-spacing: 0.02em;
 .footer {
     background: #2E2F42;
     margin: 0 auto;
-padding: 101.5px 0 100px 0;
+padding: 100px 0 100px 0;
     width: 1440px;
     
 }
@@ -349,7 +348,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 display: inline-block;
-margin-bottom: 17,5px;
+margin-bottom: 16px;
 
 }
 .footer-logo-span{
